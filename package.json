@@ -1,0 +1,16 @@
+{
+  "name": "node-crash-2924",
+  "version": "1.0.0",
+  "description": "Node.js crash course code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon --env-file=.env server2.js"
+  },
+  "author": "Frank Njoroge",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
